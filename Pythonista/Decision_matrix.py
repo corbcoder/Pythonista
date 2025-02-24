@@ -35,9 +35,9 @@ input("\nPress the enter key to continue program")
 
 # Still hoping to improve this section as i make advances in this language.
 # Need to find a way to shorten these decision codes
-if 1<Choice<10000:
+if Choice <= 10000:
     print("\nYou need to double your hustle, men!")
-if 10001<Choice<13199:
+if 10000 < Choice <= 13199:
     print("\nHmmm, it seems like you are almost there, just a little more hustling and a Toyota is on its way!")
 if 13200<Choice<15000:
     print("\a")
